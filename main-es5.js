@@ -302,25 +302,31 @@
       /* harmony import */
 
 
-      var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      var _navbar_component_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+      /*! ./navbar.component.css */
+      "cIR/");
+      /* harmony import */
+
+
+      var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
       /*! @angular/core */
       "fXoL");
       /* harmony import */
 
 
-      var _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! ../../sidebar/sidebar.component */
       "47Jg");
       /* harmony import */
 
 
-      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/router */
       "tyNb");
       /* harmony import */
 
 
-      var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
       /*! @angular/common */
       "ofXK");
 
@@ -342,7 +348,7 @@
           value: function ngOnInit() {
             var _this = this;
 
-            this.listTitles = _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_3__["ROUTES"].filter(function (listTitle) {
+            this.listTitles = _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_4__["ROUTES"].filter(function (listTitle) {
               return listTitle;
             });
             var navbar = this.element.nativeElement;
@@ -438,28 +444,29 @@
 
       NavbarComponent.ctorParameters = function () {
         return [{
-          type: _angular_common__WEBPACK_IMPORTED_MODULE_5__["Location"]
+          type: _angular_common__WEBPACK_IMPORTED_MODULE_6__["Location"]
         }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["Renderer2"]
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Renderer2"]
         }, {
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ElementRef"]
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["ElementRef"]
         }, {
-          type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]
+          type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]
         }];
       };
 
       NavbarComponent.propDecorators = {
         button: [{
-          type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["ViewChild"],
+          type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["ViewChild"],
           args: ["navbar-cmp", {
             "static": false
           }]
         }]
       };
-      NavbarComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
+      NavbarComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"])({
         selector: 'navbar-cmp',
-        template: _raw_loader_navbar_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
-      }), Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_5__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_2__["ElementRef"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])], NavbarComponent);
+        template: _raw_loader_navbar_component_html__WEBPACK_IMPORTED_MODULE_1__["default"],
+        styles: [_navbar_component_css__WEBPACK_IMPORTED_MODULE_2__["default"]]
+      }), Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_common__WEBPACK_IMPORTED_MODULE_6__["Location"], _angular_core__WEBPACK_IMPORTED_MODULE_3__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_3__["ElementRef"], _angular_router__WEBPACK_IMPORTED_MODULE_5__["Router"]])], NavbarComponent);
       /***/
     },
 
@@ -1041,6 +1048,26 @@
     },
 
     /***/
+    "cIR/":
+    /*!****************************************************!*\
+      !*** ./src/app/shared/navbar/navbar.component.css ***!
+      \****************************************************/
+
+    /*! exports provided: default */
+
+    /***/
+    function cIR(module, __webpack_exports__, __webpack_require__) {
+      "use strict";
+
+      __webpack_require__.r(__webpack_exports__);
+      /* harmony default export */
+
+
+      __webpack_exports__["default"] = ".navbar-img{\r\n    width: 50px;\r\n    border-radius: 100%;\r\n}\r\n\r\n#collapseExample > *{\r\n\tmargin-right: 1em;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2hhcmVkL25hdmJhci9uYXZiYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLFdBQVc7SUFDWCxtQkFBbUI7QUFDdkI7O0FBRUE7Q0FDQyxpQkFBaUI7QUFDbEIiLCJmaWxlIjoic3JjL2FwcC9zaGFyZWQvbmF2YmFyL25hdmJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5hdmJhci1pbWd7XHJcbiAgICB3aWR0aDogNTBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDEwMCU7XHJcbn1cclxuXHJcbiNjb2xsYXBzZUV4YW1wbGUgPiAqe1xyXG5cdG1hcmdpbi1yaWdodDogMWVtO1xyXG59Il19 */";
+      /***/
+    },
+
+    /***/
     "cNqA":
     /*!************************************************!*\
       !*** ./src/app/shared/footer/footer.module.ts ***!
@@ -1476,7 +1503,7 @@
       /* harmony default export */
 
 
-      __webpack_exports__["default"] = "<!-- Perdonami Gesù, non so come aggiungere un foglio di stile ad un \r\ncomponente, quindi per il momento farò questa blasfemia -->\r\n<style>\r\n  .navbar-img{\r\n    width: 50px;\r\n    border-radius: 100%;\r\n  }\r\n  #collapseExample > *{\r\n    margin-right: 1em;\r\n  }\r\n</style>\r\n\r\n<nav class=\"navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent\">\r\n  <div class=\"container-fluid\">\r\n    <div class=\"navbar-wrapper\">\r\n      <div class=\"navbar-toggle\">\r\n        <button type=\"button\" class=\"navbar-toggler\" (click)=\"sidebarToggle()\">\r\n          <span class=\"navbar-toggler-bar bar1\"></span>\r\n          <span class=\"navbar-toggler-bar bar2\"></span>\r\n          <span class=\"navbar-toggler-bar bar3\"></span>\r\n        </button>\r\n      </div>\r\n      <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\r\n    </div>\r\n    \r\n    <!--Bisogna allineare questo p a destra quando lo schermo è in dimensione lg o maggiore-->\r\n\r\n    <!--Fine-->\r\n\r\n    <button class=\"navbar-toggler\" type=\"button\" (click)=\"collapse()\"\r\n      [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"collapseExample\">\r\n      <span class=\"navbar-toggler-bar navbar-kebab\"></span>\r\n      <span class=\"navbar-toggler-bar navbar-kebab\"></span>\r\n      <span class=\"navbar-toggler-bar navbar-kebab\"></span>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse justify-content-end\" id=\"collapseExample\" [ngbCollapse]=\"isCollapsed\">\r\n<!--       <form>\r\n        <div class=\"input-group no-border\">\r\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\r\n          <div class=\"input-group-append\">\r\n            <div class=\"input-group-text\">\r\n              <i class=\"nc-icon nc-zoom-split\"></i>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </form> -->\r\n      <ul class=\"navbar-nav\">\r\n        \r\n\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link btn-magnify\" href=\"javascript:void(0)\">\r\n            <i class=\"nc-icon nc-layout-11\"></i>\r\n            <p>\r\n              <span class=\"d-lg-none d-md-block\">Stats</span>\r\n            </p>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"nav-item btn-rotate\" ngbDropdown placement=\"bottom-left\" >\r\n          <a class=\"nav-link\" ngbDropdownToggle id=\"navbarDropdownMenuLink\" >\r\n            <i class=\"nc-icon nc-bell-55\"></i>\r\n            <p>\r\n              <span class=\"d-lg-none d-md-block\">Some Actions</span>\r\n            </p>\r\n          </a>\r\n          <div ngbDropdownMenu aria-labelledby=\"navbarDropdownMenuLink\" class=\"dropdown-menu dropdown-menu-right\">\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Action</a>\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Another action</a>\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Something else here</a>\r\n          </div>\r\n        </li>\r\n\r\n        <li class =\"nav-item \" ngbDropdown placement =\"bottom-left\">\r\n          <div >\r\n          <a class=\"nav-link\" ngbDropdownToggle id=\"navbar\" >\r\n            <div style=\"float:left; padding-right:10px;\">        \r\n              \r\n                <p class=\"text-muted\">\r\n                  Welcome Back,\r\n                </p>\r\n                <div class=\"typography-line\">\r\n                  <h6>TWENTYMILES</h6>\r\n                </div>\r\n              </div>\r\n           <img src=\"../../../assets/img/mike.jpg\" class=\"navbar-img\" style=\"width: 40px; \"alt=\"\">\r\n          \r\n           </a>\r\n          </div>\r\n           <div ngbDropdownMenu aria-labelledby=\"navbar\" class=\"dropdown-menu dropdown-menu-right\">\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Dashboard</a>\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Profile</a>\r\n            <a ngbDropdownItem (click)=\"logout()\" routerLink=\"/login\">Logout</a>\r\n          </div>\r\n        </li>\r\n<!--         <li class=\"nav-item\">\r\n          <a class=\"nav-link btn-rotate\" href=\"javascript:void(0)\">\r\n            <i class=\"nc-icon nc-settings-gear-65\"></i>\r\n            <p>\r\n              <span class=\"d-lg-none d-md-block\">Account</span>\r\n            </p>\r\n          </a>\r\n        </li> -->\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n";
+      __webpack_exports__["default"] = "<nav class=\"navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent\">\r\n  <div class=\"container-fluid\">\r\n    <div class=\"navbar-wrapper\">\r\n      <div class=\"navbar-toggle\">\r\n        <button type=\"button\" class=\"navbar-toggler\" (click)=\"sidebarToggle()\">\r\n          <span class=\"navbar-toggler-bar bar1\"></span>\r\n          <span class=\"navbar-toggler-bar bar2\"></span>\r\n          <span class=\"navbar-toggler-bar bar3\"></span>\r\n        </button>\r\n      </div>\r\n      <a class=\"navbar-brand\" href=\"javascript:void(0)\">{{getTitle()}}</a>\r\n    </div>\r\n    \r\n    <!--Bisogna allineare questo p a destra quando lo schermo è in dimensione lg o maggiore-->\r\n\r\n    <!--Fine-->\r\n\r\n    <button class=\"navbar-toggler\" type=\"button\" (click)=\"collapse()\"\r\n      [attr.aria-expanded]=\"!isCollapsed\" aria-controls=\"collapseExample\">\r\n      <span class=\"navbar-toggler-bar navbar-kebab\"></span>\r\n      <span class=\"navbar-toggler-bar navbar-kebab\"></span>\r\n      <span class=\"navbar-toggler-bar navbar-kebab\"></span>\r\n    </button>\r\n    <div class=\"collapse navbar-collapse justify-content-end\" id=\"collapseExample\" [ngbCollapse]=\"isCollapsed\">\r\n<!--       <form>\r\n        <div class=\"input-group no-border\">\r\n          <input type=\"text\" value=\"\" class=\"form-control\" placeholder=\"Search...\">\r\n          <div class=\"input-group-append\">\r\n            <div class=\"input-group-text\">\r\n              <i class=\"nc-icon nc-zoom-split\"></i>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </form> -->\r\n      <ul class=\"navbar-nav\">\r\n        \r\n\r\n        <li class=\"nav-item\">\r\n          <a class=\"nav-link btn-magnify\" href=\"javascript:void(0)\">\r\n            <i class=\"nc-icon nc-layout-11\"></i>\r\n            <p>\r\n              <span class=\"d-lg-none d-md-block\">Stats</span>\r\n            </p>\r\n          </a>\r\n        </li>\r\n\r\n        <li class=\"nav-item btn-rotate\" ngbDropdown placement=\"bottom-left\" >\r\n          <a class=\"nav-link\" ngbDropdownToggle id=\"navbarDropdownMenuLink\" >\r\n            <i class=\"nc-icon nc-bell-55\"></i>\r\n            <p>\r\n              <span class=\"d-lg-none d-md-block\">Some Actions</span>\r\n            </p>\r\n          </a>\r\n          <div ngbDropdownMenu aria-labelledby=\"navbarDropdownMenuLink\" class=\"dropdown-menu dropdown-menu-right\">\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Action</a>\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Another action</a>\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Something else here</a>\r\n          </div>\r\n        </li>\r\n\r\n        <li class =\"nav-item \" ngbDropdown placement =\"bottom-left\">\r\n          <div>\r\n          <a class=\"nav-link\" ngbDropdownToggle id=\"navbar\" >\r\n            <div style=\"float:left; padding-right:10px;\">        \r\n              \r\n                <p class=\"text-muted\">\r\n                  Welcome Back,\r\n                </p>\r\n                <div class=\"typography-line\">\r\n                  <h6>TWENTYMILES</h6>\r\n                </div>\r\n              </div>\r\n           <img src=\"../../../assets/img/mike.jpg\" class=\"navbar-img\" style=\"width: 40px; \"alt=\"\">\r\n          \r\n           </a>\r\n          </div>\r\n           <div ngbDropdownMenu aria-labelledby=\"navbar\" class=\"dropdown-menu dropdown-menu-right\">\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Dashboard</a>\r\n            <a ngbDropdownItem href=\"javascript:void(0)\">Profile</a>\r\n            <a ngbDropdownItem (click)=\"logout()\" routerLink=\"/login\">Logout</a>\r\n          </div>\r\n        </li>\r\n<!--         <li class=\"nav-item\">\r\n          <a class=\"nav-link btn-rotate\" href=\"javascript:void(0)\">\r\n            <i class=\"nc-icon nc-settings-gear-65\"></i>\r\n            <p>\r\n              <span class=\"d-lg-none d-md-block\">Account</span>\r\n            </p>\r\n          </a>\r\n        </li> -->\r\n      </ul>\r\n    </div>\r\n  </div>\r\n</nav>\r\n";
       /***/
     },
 
